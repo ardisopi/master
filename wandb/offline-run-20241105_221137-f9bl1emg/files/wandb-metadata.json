@@ -1,0 +1,41 @@
+{
+  "os":  "Linux-6.1.85+-x86_64-with-glibc2.35",
+  "python":  "3.10.12",
+  "startedAt":  "2024-11-05T22:11:37.637953Z",
+  "program":  "TheReturnOfTheModel_Setfit.ipynb",
+  "git":  {
+    "remote":  "https://github.com/ardisopi/master.git",
+    "commit":  "eb64d319aae1604cad27a031ce5ec77e404d6a24"
+  },
+  "root":  "/content/master",
+  "host":  "bc445255186e",
+  "username":  "root",
+  "executable":  "/usr/bin/python3",
+  "colab":  "https://colab.research.google.com/notebook#fileId=1J9keGGe9KCfsY8LJlI0liAkNrQTcJr98",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA A100-SXM4-40GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "35239718912"
+    }
+  },
+  "memory":  {
+    "total":  "89632796672"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100-SXM4-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.2"
+}

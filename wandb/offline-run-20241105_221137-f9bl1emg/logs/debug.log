@@ -1,0 +1,45 @@
+2024-11-05 22:11:37,620 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-11-05 22:11:37,621 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Configure stats pid to 3930
+2024-11-05 22:11:37,621 INFO    ThreadPoolExecutor-1_1:3930 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-05 22:11:37,621 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Loading settings from /root/.config/wandb/settings
+2024-11-05 22:11:37,622 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Loading settings from /content/master/wandb/settings
+2024-11-05 22:11:37,622 INFO    ThreadPoolExecutor-1_1:3930 [wandb_init.py:init():688] backend started and connected
+2024-11-05 22:11:37,622 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'mode': 'offline', 'project': 'sentence-transformers'}
+2024-11-05 22:11:37,628 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': 'offline', '_disable_service': None}
+2024-11-05 22:11:37,628 INFO    ThreadPoolExecutor-1_0:3930 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-05 22:11:37,628 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:_log_setup():534] Logging user logs to /content/master/wandb/offline-run-20241105_221137-f9bl1emg/logs/debug.log
+2024-11-05 22:11:37,628 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:_log_setup():535] Logging internal logs to /content/master/wandb/offline-run-20241105_221137-f9bl1emg/logs/debug-internal.log
+2024-11-05 22:11:37,628 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():621] calling init triggers
+2024-11-05 22:11:37,629 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {}
+2024-11-05 22:11:37,629 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():671] starting backend
+2024-11-05 22:11:37,629 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():675] sending inform_init request
+2024-11-05 22:11:37,632 INFO    ThreadPoolExecutor-1_1:3930 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-05 22:11:37,637 INFO    ThreadPoolExecutor-1_0:3930 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-05 22:11:37,637 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():688] backend started and connected
+2024-11-05 22:11:37,649 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_label_probe_notebook():1342] probe notebook
+2024-11-05 22:11:42,638 INFO    ThreadPoolExecutor-1_1:3930 [wandb_run.py:_label_probe_notebook():1352] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-11-05 22:11:42,638 INFO    ThreadPoolExecutor-1_1:3930 [wandb_init.py:init():783] updated telemetry
+2024-11-05 22:11:42,646 INFO    ThreadPoolExecutor-1_1:3930 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-05 22:11:42,656 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_label_probe_notebook():1352] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-11-05 22:11:42,656 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():783] updated telemetry
+2024-11-05 22:11:42,661 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-11-05 22:11:42,702 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():867] starting run threads in backend
+2024-11-05 22:11:43,191 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_console_start():2463] atexit reg
+2024-11-05 22:11:43,191 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-11-05 22:11:43,191 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-11-05 22:11:43,191 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-11-05 22:11:43,196 INFO    ThreadPoolExecutor-1_0:3930 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-05 22:11:43,197 INFO    ThreadPoolExecutor-1_0:3930 [wandb_run.py:_config_callback():1390] config_cb None None {'output_dir': 'checkpoints', 'batch_size': [16, 16], 'num_epochs': [1, 1], 'max_steps': -1, 'sampling_strategy': 'oversampling', 'num_iterations': 20, 'body_learning_rate': [2e-05, 2e-05], 'head_learning_rate': 2e-05, 'loss': 'sentence_transformers.losses.CosineSimilarityLoss.CosineSimilarityLoss', 'distance_metric': 'sentence_transformers.losses.BatchHardTripletLoss.BatchHardTripletLossDistanceFunction.cosine_distance', 'margin': 0.25, 'end_to_end': False, 'use_amp': False, 'warmup_proportion': 0.1, 'l2_weight': 0.01, 'max_length': None, 'samples_per_label': 2, 'show_progress_bar': True, 'seed': 42, 'report_to': ['tensorboard', 'wandb'], 'run_name': None, 'logging_dir': 'runs/Nov05_22-11-27_bc445255186e', 'logging_strategy': 'STEPS', 'logging_first_step': True, 'logging_steps': 50, 'eval_strategy': 'NO', 'evaluation_strategy': None, 'eval_steps': None, 'eval_delay': 0, 'eval_max_steps': -1, 'save_strategy': 'steps', 'save_steps': 500, 'save_total_limit': 1, 'load_best_model_at_end': False, 'metric_for_best_model': 'embedding_loss', 'greater_is_better': False}
+2024-11-05 22:13:12,717 ERROR   ThreadPoolExecutor-1_1:3930 [wandb_init.py:init():842] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-05 22:13:12,717 ERROR   ThreadPoolExecutor-1_1:3930 [wandb_init.py:init():1266] error in wandb.init()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/wandb/sdk/wandb_init.py", line 1256, in init
+    return wi.init()
+  File "/usr/local/lib/python3.10/dist-packages/wandb/sdk/wandb_init.py", line 848, in init
+    raise error
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-11-05 22:15:47,585 WARNING MsgRouterThr:3930 [router.py:message_loop():77] message_loop has been closed
+2024-11-05 22:15:47,585 WARNING MsgRouterThr:3930 [router.py:message_loop():77] message_loop has been closed

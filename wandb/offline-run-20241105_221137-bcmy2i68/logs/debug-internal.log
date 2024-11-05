@@ -1,0 +1,12 @@
+{"time":"2024-11-05T22:11:37.628216272Z","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-05T22:11:37.628252734Z","level":"INFO","msg":"created symlink","path":"/content/master/wandb/offline-run-20241105_221137-bcmy2i68/logs/debug-core.log"}
+{"time":"2024-11-05T22:11:37.733283368Z","level":"INFO","msg":"created new stream","id":"bcmy2i68"}
+{"time":"2024-11-05T22:11:37.733326385Z","level":"INFO","msg":"stream: started","id":"bcmy2i68"}
+{"time":"2024-11-05T22:11:37.733383589Z","level":"INFO","msg":"sender: started","stream_id":"bcmy2i68"}
+{"time":"2024-11-05T22:11:37.733356101Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bcmy2i68"}}
+{"time":"2024-11-05T22:11:37.733396508Z","level":"INFO","msg":"handler: started","stream_id":{"value":"bcmy2i68"}}
+{"time":"2024-11-05T22:15:47.585354602Z","level":"INFO","msg":"stream: closing","id":"bcmy2i68"}
+{"time":"2024-11-05T22:15:47.585841522Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"bcmy2i68"}}
+{"time":"2024-11-05T22:15:47.585883565Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bcmy2i68"}}
+{"time":"2024-11-05T22:15:47.585923875Z","level":"INFO","msg":"sender: closed","stream_id":"bcmy2i68"}
+{"time":"2024-11-05T22:15:47.585964554Z","level":"INFO","msg":"stream: closed","id":"bcmy2i68"}
